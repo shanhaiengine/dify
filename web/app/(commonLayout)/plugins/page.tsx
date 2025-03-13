@@ -14,7 +14,7 @@ const PluginList = async () => {
 }
 
 export const metadata = {
-  title: 'Plugins - Dify',
+  title: 'Plugins - 山海引擎',
 }
 
 export default PluginList
