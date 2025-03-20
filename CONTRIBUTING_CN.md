@@ -12,42 +12,43 @@
 
 ### 功能请求：
 
-* 如果您要提出新的功能请求，请解释所提议的功能的目标，并尽可能提供详细的上下文。[@perzeusss](https://github.com/perzeuss) 制作了一个很好的 [功能请求助手](https://udify.app/chat/MK2kVSnw1gakVwMX)，可以帮助您起草需求。随时尝试一下。
+- 如果您要提出新的功能请求，请解释所提议的功能的目标，并尽可能提供详细的上下文。[@perzeusss](https://github.com/perzeuss) 制作了一个很好的 [功能请求助手](https://udify.app/chat/MK2kVSnw1gakVwMX)，可以帮助您起草需求。随时尝试一下。
 
-* 如果您想从现有问题中选择一个，请在其下方留下评论表示您的意愿。
+- 如果您想从现有问题中选择一个，请在其下方留下评论表示您的意愿。
 
 相关方向的团队成员将参与其中。如果一切顺利，他们将批准您开始编码。在此之前，请不要开始工作，以免我们提出更改导致您的工作付诸东流。
 
 根据所提议的功能所属的领域不同，您可能需要与不同的团队成员交流。以下是我们团队成员目前正在从事的各个领域的概述：
 
-  | 团队成员                                                       | 工作范围                                                |
-  | ------------------------------------------------------------ | ---------------------------------------------------- |
-  | [@yeuoly](https://github.com/Yeuoly)                         | 架构 Agents                                  |
-  | [@jyong](https://github.com/JohnJyong)                       | RAG 流水线设计                                  |
-  | [@GarfieldDai](https://github.com/GarfieldDai)               | 构建 workflow 编排                     |
-  | [@iamjoel](https://github.com/iamjoel) & [@zxhlyh](https://github.com/zxhlyh) | 让我们的前端更易用                  |
-  | [@guchenhe](https://github.com/guchenhe) & [@crazywoola](https://github.com/crazywoola) | 开发人员体验, 综合事项联系人 |
-  | [@takatost](https://github.com/takatost)                     | 产品整体方向和架构           |
+| 团队成员                                                                                | 工作范围                     |
+| --------------------------------------------------------------------------------------- | ---------------------------- |
+| [@yeuoly](https://github.com/Yeuoly)                                                    | 架构 Agents                  |
+| [@jyong](https://github.com/JohnJyong)                                                  | RAG 流水线设计               |
+| [@GarfieldDai](https://github.com/GarfieldDai)                                          | 构建 workflow 编排           |
+| [@iamjoel](https://github.com/iamjoel) & [@zxhlyh](https://github.com/zxhlyh)           | 让我们的前端更易用           |
+| [@guchenhe](https://github.com/guchenhe) & [@crazywoola](https://github.com/crazywoola) | 开发人员体验, 综合事项联系人 |
+| [@takatost](https://github.com/takatost)                                                | 产品整体方向和架构           |
 
-  事项优先级：
+事项优先级：
 
-  | 功能类型                                                 | 优先级        |
-  | ------------------------------------------------------------ | --------------- |
-  | 被团队成员标记为高优先级的功能    | 高优先级   |
-  | 在 [community feedback board](https://github.com/langgenius/dify/discussions/categories/feedbacks) 内反馈的常见功能请求 | 中等优先级 |
-  | 非核心功能和小幅改进                     | 低优先级    |
-  | 有价值但不紧急                                   | 未来功能  |
+| 功能类型                                                                                                                | 优先级     |
+| ----------------------------------------------------------------------------------------------------------------------- | ---------- |
+| 被团队成员标记为高优先级的功能                                                                                          | 高优先级   |
+| 在 [community feedback board](https://github.com/langgenius/dify/discussions/categories/feedbacks) 内反馈的常见功能请求 | 中等优先级 |
+| 非核心功能和小幅改进                                                                                                    | 低优先级   |
+| 有价值但不紧急                                                                                                          | 未来功能   |
 
 ### 其他任何事情（例如 bug 报告、性能优化、拼写错误更正）：
-* 立即开始编码。
+
+- 立即开始编码。
 
   事项优先级：
 
-  | Issue 类型                                                   | 优先级        |
-  | ------------------------------------------------------------ | --------------- |
-  | 核心功能的 Bugs（例如无法登录、应用无法工作、安全漏洞） | 紧急        |
-  | 非紧急 bugs, 性能提升                        | 中等优先级 |
-  | 小幅修复(错别字, 能正常工作但存在误导的 UI)                | 低优先级    |
+  | Issue 类型                                              | 优先级     |
+  | ------------------------------------------------------- | ---------- |
+  | 核心功能的 Bugs（例如无法登录、应用无法工作、安全漏洞） | 紧急       |
+  | 非紧急 bugs, 性能提升                                   | 中等优先级 |
+  | 小幅修复(错别字, 能正常工作但存在误导的 UI)             | 低优先级   |
 
 ## 安装
 
