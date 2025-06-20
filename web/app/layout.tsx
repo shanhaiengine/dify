@@ -10,6 +10,10 @@ import './styles/globals.css'
 import './styles/markdown.scss'
 import GlobalPublicStoreProvider from '@/context/global-public-context'
 
+export const metadata = {
+  title: '山海引擎',
+}
+
 export const viewport: Viewport = {
   width: 'device-width',
   initialScale: 1,

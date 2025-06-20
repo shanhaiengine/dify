@@ -200,7 +200,7 @@ const translation = {
   account: {
     account: '账户',
     myAccount: '我的账户',
-    studio: '工作室',
+    studio: '山海引擎 工作室',
     avatar: '头像',
     name: '用户名',
     email: '邮箱',
