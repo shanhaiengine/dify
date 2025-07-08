@@ -11,7 +11,7 @@ import './styles/markdown.scss'
 import GlobalPublicStoreProvider from '@/context/global-public-context'
 
 export const metadata = {
-  title: '山海引擎',
+  title: '天狐大模型平台',
 }
 
 export const viewport: Viewport = {

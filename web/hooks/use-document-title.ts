@@ -18,6 +18,9 @@ export default function useDocumentTitle(title: string) {
       favicon = '/favicon.ico'
     }
   }
-  useTitle(titleStr)
-  useFavicon(favicon)
+  // useTitle(titleStr)
+  // useFavicon(favicon)
+
+  useTitle('天狐大模型平台')
+  useFavicon('/favicon.ico')
 }

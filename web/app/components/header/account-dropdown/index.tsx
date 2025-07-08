@@ -5,23 +5,14 @@ import { useRouter } from 'next/navigation'
 import {
   RiAccountCircleLine,
   RiArrowRightUpLine,
-  RiBookOpenLine,
-  RiGithubLine,
   RiGraduationCapFill,
-  RiInformation2Line,
   RiLogoutBoxRLine,
-  RiMap2Line,
   RiSettings3Line,
-  RiStarLine,
   RiTShirt2Line,
 } from '@remixicon/react'
 import Link from 'next/link'
 import { Menu, MenuButton, MenuItem, MenuItems, Transition } from '@headlessui/react'
-import Indicator from '../indicator'
 import AccountAbout from '../account-about'
-import GithubStar from '../github-star'
-import Support from './support'
-import Compliance from './compliance'
 import PremiumBadge from '@/app/components/base/premium-badge'
 import Avatar from '@/app/components/base/avatar'
 import ThemeSwitcher from '@/app/components/base/theme-switcher'
@@ -29,7 +20,6 @@ import { logout } from '@/service/common'
 import { useAppContext } from '@/context/app-context'
 import { useProviderContext } from '@/context/provider-context'
 import { useModalContext } from '@/context/modal-context'
-import { IS_CLOUD_EDITION } from '@/config'
 import cn from '@/utils/classnames'
 import { useGlobalPublicStore } from '@/context/global-public-context'
 import { useDocLink } from '@/context/i18n'
@@ -126,7 +116,7 @@ export default function AppSelector() {
                       </div>
                     </MenuItem>
                   </div>
-                  {!systemFeatures.branding.enabled && <>
+                  {/* {!systemFeatures.branding.enabled && <>
                     <div className='p-1'>
                       <MenuItem>
                         <Link
@@ -188,7 +178,7 @@ export default function AppSelector() {
                         )
                       }
                     </div>
-                  </>}
+                  </>} */}
                   <MenuItem disabled>
                     <div className='p-1'>
                       <div className={cn(itemClassName, 'hover:bg-transparent')}>

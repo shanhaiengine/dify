@@ -571,7 +571,7 @@ services:
   # Frontend web application.
   web:
     # image: langgenius/dify-web:1.4.3
-    image: docker.io/layla707/dify-web:yk2
+    image: docker.io/layla707/dify-web:yk4
     restart: always
     environment:
       CONSOLE_API_URL: ${CONSOLE_API_URL:-}
