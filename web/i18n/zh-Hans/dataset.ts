@@ -18,7 +18,7 @@ const translation = {
   externalKnowledgeNamePlaceholder: '请输入外部知识库名称',
   externalKnowledgeDescriptionPlaceholder: '描述知识库内容（可选）',
   learnHowToWriteGoodKnowledgeDescription: '了解如何编写良好的知识库描述',
-  externalAPIPanelDescription: '外部知识库 API 用于连接到 Dify 之外的知识库并从中检索知识。',
+  externalAPIPanelDescription: '外部知识库 API 用于连接到天狐大模型平台之外的知识库并从中检索知识。',
   externalAPIPanelDocumentation: '了解如何创建外部知识库 API',
   localDocs: '本地文档',
   documentCount: ' 文档',

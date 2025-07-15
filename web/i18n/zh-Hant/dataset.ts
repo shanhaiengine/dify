@@ -139,7 +139,7 @@ const translation = {
   externalKnowledgeIdPlaceholder: '請輸入 Knowledge ID',
   editExternalAPIFormTitle: '編輯外部知識 API',
   externalKnowledgeId: '外部知識 ID',
-  externalAPIPanelDescription: '外部知識 API 用於連接到 Dify 外部的知識庫，並從該知識庫中檢索知識。',
+  externalAPIPanelDescription: '外部知識 API 用於連接到天狐大模型平台外部的知識庫，並從該知識庫中檢索知識。',
   externalAPI: '外部 API',
   editExternalAPITooltipTitle: '關聯知識',
   externalKnowledgeName: '外部知識名稱',

@@ -148,13 +148,13 @@ const NormalForm = () => {
               <Link
                 className='system-xs-medium text-text-secondary hover:underline'
                 target='_blank' rel='noopener noreferrer'
-                href='https://dify.ai/terms'
+                href='https://docs.shanhaiengine.com/service/agreement/'
               >{t('login.tos')}</Link>
               &nbsp;&&nbsp;
               <Link
                 className='system-xs-medium text-text-secondary hover:underline'
                 target='_blank' rel='noopener noreferrer'
-                href='https://dify.ai/privacy'
+                href='https://docs.shanhaiengine.com/service/policy/'
               >{t('login.pp')}</Link>
             </div>
             {IS_CE_EDITION && <div className="w-hull system-xs-regular mt-2 block text-text-tertiary">
